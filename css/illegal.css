@@ -1,0 +1,166 @@
+body {
+	margin: 5%;
+}
+
+h1 {
+    font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}
+
+#byline {
+	font-size: 14px;
+	font-family: Georgia, serif;
+	/*color: #ababab;*/
+	margin-left: 10px;
+}
+
+#headline {
+	width: 300px;
+    position: fixed;
+}
+
+#republican h2 {
+	font-family: Georgia, sans-serif;
+	border-bottom: 1px solid red;
+}
+
+#dream-act h2 {
+	font-family: Georgia, sans-serif;
+	border-bottom: 1px solid gray;
+}
+
+#democrat h2 {
+	font-family: Georgia, sans-serif;
+	border-bottom: 1px solid blue;
+}
+
+#undocumented h2 {
+	font-family: Georgia, sans-serif;
+	border-bottom: 1px solid gray;
+}
+
+#democrat {
+	margin-top: 100px;
+}
+
+#dream-act {
+	margin-top: 100px;
+}
+
+#undocumented {
+	margin-top: 100px;
+}
+
+p {
+	font-family: Georgia, sans-serif;
+	font-size: 12px;
+}
+
+em {
+	font-weight: bold;
+	font-family: Georgia, sans-serif;
+	color: #ababab;
+}
+
+#wrapper {
+	margin-left: 30%;
+	margin-right: 5%;
+}
+
+#republican p {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#democrat p {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#dream-act p {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#undocumented p {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+#republican em {
+	color: #ababab;
+}
+
+#headline a {
+	text-decoration: none;
+	color: black;
+} 
+
+#headline a:hover {
+	color: gray;
+}
+
+#wrapper a span {
+	display: none;
+}
+
+#wrapper a:hover {
+	border: 1px solid #ababab;
+}
+
+#wrapper a:hover span { 
+	color: black;
+	font-size: 10pt;
+	display: block; 
+	/*opacity: 0.7;*/
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 15px;
+	position: absolute;
+	width: 300px;
+	left: 900px;
+	top: 100px;
+}
+
+#democrat a:hover span { 
+	color: black;
+	font-size: 10pt;
+	display: block; 
+	/*opacity: 0.7;*/
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 15px;
+	position: absolute;
+	width: 300px;
+	left: 900px;
+	top: 595px;
+}
+
+#dream-act a:hover span { 
+	color: black;
+	font-size: 10pt;
+	display: block; 
+	/*opacity: 0.7;*/
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 15px;
+	position: absolute;
+	width: 300px;
+	left: 900px;
+	top: 1095px;
+}
+
+#undocumented a:hover span { 
+	color: black;
+	font-size: 10pt;
+	display: block; 
+	/*opacity: 0.7;*/
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 15px;
+	position: absolute;
+	width: 300px;
+	left: 900px;
+	top: 1595px;
+}
